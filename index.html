@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script defer src="scripts/script.js"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    
+    <video muted loop autoplay id="bg-video">
+        <source src="video/video1.mp4" type="video/mp4">
+    </video>
+    <div class="cursor"></div>
+    <div class="root">
+       
+        <div class="left-div ">
+            <div class="left-div1">
+                <div class="left-sub-div1">
+                    <p class="name">Harsh</p>
+                    <p class="skill">Front End Developer & UI Designer</p>
+                </div>
+            </div>
+            <div class="left-div2">
+                <div class="spin">
+                </div>
+                <img src="images/profile.png" alt="profile-pic" class="profile-pic">
+            </div>
+            <div class="left-div3">
+                <p class="interest">I love to make UI & <br><span>learning new things.</span></p>
+            </div>
+            <div class="left-div4">
+                <a href="https://www.instagram.com/harshpatel2461/" target="_blank"><img src="images/social-icon/instagram.svg" alt="instagram"
+                        class="social-1"></a>
+                <a href="https://twitter.com/home" target="_blank"><img src="images/social-icon/twitter.svg"  alt="twitter" class="social-2"></a>
+                <a href="https://www.linkedin.com/in/harsh-patel-24a142223/ "  target="_blank"><img src="images/social-icon/linkedin.svg"
+                        alt="linkedin" class="social-3"></a>
+                <a href="https://github.com/patelharsh9054"  target="_blank"><img src="images/social-icon/github.svg" alt="github"
+                        class="social-4"></a>
+            </div>
+            <div class="left-div5">
+                <div class="mail-button">
+                    <img src="images/social-icon/mail-line.svg" alt="mail-icon" class="mail-icon">
+                    <a href="mailto: patelharsh90541@gamil.com" target="_self" class="send-mail ">Hire Me !</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="mid-div ">
+            <div class="mid-sub-div1" id="home">
+                <div class="mid-sub1-div1 hidden">
+                    <img src="images/social-icon/home.svg" alt="home-con" class="mid-sub1-div1-home-icon">
+                    <span class="mid-sub1-div1-heading1">INTRODUCE</span>
+                </div>
+                <div class="mid-sub1-div2">
+                    <p class="mid-sub1-div2-heading2">&#128075; Hi from <span>Harsh</span>, Frontend Developer
+                        and UI Designer</p>
+                </div>
+                <div class="mid-sub1-div3">
+                    <p class="mid-sub1-div3-heading3">I love to built and design the websites ,<br> I do what i love.
+                    </p>
+                </div>
+                <div class="mid-sub1-div4">
+                    <!-- <a href="HarshPatel_InternshalaResume.pdf" target="_self"> -->
+                    <div class="circle" onclick="downloadFile()">
+                        <div class="down-arrow"></div>
+                        <div class="text-circle">
+                            <p>&nbsp;MY RESUME &#9679; MY RESUME &#9679;</p>
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="mid-sub-div2" id="about">
+                <div class="mid-sub2-div2 hidden">
+                    <i class="lar la-user mid-sub2-div2-about-icon"></i>
+                    <span class="mid-sub2-div2-heading1">ABOUT</span>
+                </div>
+                <div class="mid-sub2-div3">
+                    <p class="mid-sub2-div3-heading2">I think great design starts with beautiful<span>
+                            Imagination.</span></p>
+                </div>
+                <div class="mid-sub2-div4">
+                    <p class="mid-sub2-div4-heading3">Roughly it's like 2.5years ,I just started my Frontend Developer
+                        journey. Still , I am learning , exploring and trying to implement what I learn .The most
+                        amazing thing I liked about Frontend is just make the UI and see what beautiful has been created
+                        and when I heard about a UI as specific field like just research and drag & drop ,that's amazing
+                        .Here I meet Figma and Adobe XD and righton I am on that.</p>
+                </div>
+
+            </div>
+            <div class="mid-sub-div3" id="resume">
+                <div class="mid-sub3-div3 hidden">
+                    <i class="las la-briefcase mid-sub3-div3-resume-icon"></i>
+                    <span class="mid-sub3-div3-heading1">RESUME</span>
+                </div>
+                <div class="mid-sub3-div4">
+                    <p class="mid-sub3-div4-heading2">Education &<span> Experience</span></p>
+                </div>
+                <div class="mid-sub3-div5">
+                    <span class="line1"></span>
+                    <span class="year">2023-Present </span>
+                    <span class="internship">Internship - Web Development</span>
+                    <span class="company">InternPe</span>
+                    <span class="dot2"></span>
+                    <span class="line2"></span>
+                    <span class="year1">2020 - 2023 </span>
+                    <span class="study">Diploma Computer Science & Rngineering</span>
+                    <span class="institute">ITM SLS Baroda University</span>
+                </div>
+            </div>
+            <div class="mid-sub-div4" id="skills">
+                <div class="mid-sub4-div4 hidden">
+                    <i class="las la-shapes mid-sub4-div4-skill-icon"></i>
+                    <span class="mid-sub4-div4-heading1">SKILLS</span>
+                </div>
+                <div class="mid-sub4-div5">
+                    <p class="mid-sub4-div4-heading2">My <br>
+                        <span>Advantages</span>
+                    </p>
+                </div>
+                <div class="mid-sub4-div6 hidden">
+                    <span class="box1">
+                        <img src="images/others/figma.png" alt="" class="box1-img1">
+                        <span class="per">55%</span>
+                    </span>
+                    <span class="box2">
+                        <p class="box2-img2">HTML</p>
+                        <span class="per">95%</span>
+                    </span>
+                    <span class="box3">
+                        <p class="box3-img3">CSS</p>
+                        <span class="per">85%</span>
+                    </span>
+                    <span class="box4">
+                        <p class="box4-img4">JS</p>
+                        <span class="per">45%</span>
+                    </span>
+                    <span class="box5">
+                        <img src="images/others/react.png" alt="" class="box5-img5">
+                        <span class="per">10%</span>
+                    </span>
+                    <span class="box6">
+                        <img src="images/others/php.png" alt="" class="box6-img6">
+                        <span class="per">65%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="mid-sub-div5" id="contact">
+                <div class="mid-sub5-div5 hidden">
+                    <i class="lar la-envelope  mid-sub5-div5-message-icon"></i>
+                    <span class="mid-sub5-div5-heading1">CONTACT</span>
+                </div>
+                <div class="mid-sub5-div6">
+                    <p class="mid-sub5-div5-heading2">
+                        You Can <span> <br>Contact Me</span>
+                    </p>
+                </div>
+                <div class="mid-sub5-div7">
+                    <p class="mid-sub2-div4-heading3">
+                        Hey, My Self Harsh Patel .I am very much interested to talk about new technologies with you so
+                        if you are also interested than you cantact me on
+                        <span>"patelharsh90541@gmail.com"</span><br>see you soon.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right-div">
+
+            <ul>
+                <li><a href="#home"><i class="las la-home icon-home "></i><span class="title1">Home</span></a></li>
+                <li><a href="#about"><i class="lar la-user icon-user"></i><span class="title2">About</span></a></li>
+                <li><a href="#resume"><i class="las la-briefcase icon-briefcase"></i><span class="title3">Resume</span></a></li>
+                <li><a href="#skills"><i class="las la-shapes icon-shapes"></i><span class="title4">Skills</span></a></li>
+                <li><a href="#contact"><i class="lar la-envelope icon-envelope"></i><span class="title5">Contact</span></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="sidebar">
+        
+            <input type="checkbox" id="check">
+            <label for="check">
+        
+                <i class="las la-bars menu"></i>
+        
+            </label>
+        <div class="sidebar1">
+            <div class="sidebar-menu">
+                <p class="sidebar-menu-heading-1">Menu</p>
+                <ul>
+                    <li><a href="#home"><i class="las la-home sidebar-icon-home "><span>Home</span></i></a></li>
+                    <li><a href="#about"><i class="lar la-user sidebar-icon-user"><span>About</span></i></a></li>
+                    <li><a href="#resume"><i class="las la-briefcase sidebar-icon-briefcase"><span>Resume</span></i></a>
+                    </li>
+                    <li><a href="#skills"><i class="las la-shapes sidebar-icon-shapes"><span>Skills</span></i></a></li>
+                    <li><a href="#contact"><i class="lar la-envelope sidebar-icon-envelope"><span>Contact</span></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-social-icon">
+                <p class="sidebar-menu-heading-2">Social</p>
+                <div class="menu-collector">
+
+                    <a href="https://www.instagram.com/harshpatel2461/">
+                        <i class="lab la-instagram sidebar-social-1"></i>
+                    </a>
+                    <a href="#">
+                        <i class="lab la-twitter sidebar-social-2"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harsh-patel-24a142223/ ">
+                        <i class="lab la-linkedin-in sidebar-social-3"></i>
+                    </a>
+                    <a href="https://github.com/patelharsh9054">
+                        <i class="lab la-github sidebar-social-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
