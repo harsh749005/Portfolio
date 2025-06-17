@@ -17,7 +17,7 @@ const hiddenElemwnts = document.querySelectorAll(".hidden");
 hiddenElemwnts.forEach((el) => observer.observe(el));
 
 function downloadFile() {
-    window.open("pdf/HarshPatel_InternshalaResume.pdf");
+    window.open("pdf/ResumeHarshPatel.pdf");
 }
 
 window.addEventListener("mousemove", cursor);

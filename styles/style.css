@@ -207,7 +207,7 @@
 }
 
 .send-mail {
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 10px;
     color: #000000;
     font-weight: 600;
@@ -263,6 +263,13 @@
     text-align: left;
     font-size: 72px;
 
+}
+.mid-sub1-div2-innerheading2{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 72px;
+    font-weight: 700;
 }
 
 .mid-sub1-div2-heading2>span {
